@@ -1,0 +1,107 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #727272;
+}
+.header {
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 12px;
+  float: right;
+}
+li {
+  display: inline-block;;
+  font-size: 13px;
+}
+li a {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #727272;
+  text-decoration: none;
+}
+a:hover, a:active{
+  text-decoration: underline;
+}
+a:active {
+  color: #FF0000;
+}
+.signin-button {
+  display: inline-block;
+  text-align: center;
+  background-color: #497DFF;
+  font-size: 13px;
+  border: 1px solid #497DFF;
+  border-radius: 2px;
+  padding: 6px 11px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.main {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.search {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 130px;
+}
+.logo {
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+input {
+  display: block;
+  width: 480px;
+  height: 42px;
+  margin: 0 auto;
+  border: 1px solid #D1D1D1;
+  box-shadow: 3px 4px 6px #E8E8E8;
+  font-size: 13px;
+}
+:focus {
+  outline: none;
+}
+.buttons {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: #F2F2F2;
+  font-size: 13px;
+  border: 1px solid #F2F2F2;
+  padding: 10px 14px;
+  color: #777777;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.button:hover {
+  background-color: #FCFCFC;
+  color: #000000;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #EDEDED;
+  margin: 0;
+}
+.left-footer {
+  padding-left: 10px;
+  float: left;
+}
+.right-footer {
+  float: right;
+  padding-right: 10px;
+}
